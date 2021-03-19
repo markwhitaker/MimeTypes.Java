@@ -1,0 +1,21 @@
+buildscript {
+    ext.junit_version = "4.13.2"
+}
+
+plugins {
+    id 'java-library'
+    id 'com.palantir.git-version' version '0.12.3'
+}
+
+repositories {
+    mavenCentral()
+}
+
+group 'uk.co.mainwave.mimetypes'
+version gitVersion()
+
+sourceCompatibility = 1.8
+
+dependencies {
+    testImplementation "junit:junit:$junit_version"
+}
