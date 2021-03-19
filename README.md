@@ -6,3 +6,6 @@
 A structured collection of MIME type constants to use in your Java projects.
 
 Pull requests welcome!
+
+---
+![icon](https://raw.githubusercontent.com/markwhitaker/MimeTypes.NET/master/Artwork/MimeTypes-icon-32.png) **.NET developer?** Check out the .NET version of this library, [MimeTypes.NET](https://github.com/markwhitaker/MimeTypes.NET).
