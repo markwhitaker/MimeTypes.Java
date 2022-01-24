@@ -4,7 +4,7 @@ buildscript {
 
 plugins {
     id 'java-library'
-    id 'com.palantir.git-version' version '0.12.3'
+    id 'com.palantir.git-version' version '0.13.0'
 }
 
 repositories {
