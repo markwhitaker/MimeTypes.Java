@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class MimeTypeVideoTest {
     @Test
     public void testVideoThreegpp() {
-        assertEquals("video/3gpp", MimeType.Video.Threegpp);
+        assertEquals("video/3gpp", MimeType.Video.THREE_GPP);
     }
 
     @Test
@@ -17,26 +17,26 @@ public class MimeTypeVideoTest {
 
     @Test
     public void testVideoMp4() {
-        assertEquals("video/mp4", MimeType.Video.Mp4);
+        assertEquals("video/mp4", MimeType.Video.MP4);
     }
 
     @Test
     public void testVideoMpeg() {
-        assertEquals("video/mpeg", MimeType.Video.Mpeg);
+        assertEquals("video/mpeg", MimeType.Video.MPEG);
     }
 
     @Test
     public void testVideoOgg() {
-        assertEquals("video/ogg", MimeType.Video.Ogg);
+        assertEquals("video/ogg", MimeType.Video.OGG);
     }
 
     @Test
     public void testVideoQuicktime() {
-        assertEquals("video/quicktime", MimeType.Video.Quicktime);
+        assertEquals("video/quicktime", MimeType.Video.QUICKTIME);
     }
 
     @Test
     public void testVideoWebm() {
-        assertEquals("video/webm", MimeType.Video.Webm);
+        assertEquals("video/webm", MimeType.Video.WEBM);
     }
 }
