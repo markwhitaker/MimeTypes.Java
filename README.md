@@ -7,7 +7,12 @@ A structured collection of MIME type constants to use in your Java projects.
 
 Pull requests welcome!
 
----
-![icon](https://raw.githubusercontent.com/markwhitaker/MimeTypes.NET/master/Artwork/MimeTypes-icon-32.png) **.NET developer?** Check out the .NET version of this library, [MimeTypes.NET](https://github.com/markwhitaker/MimeTypes.NET).
+## Also for Java developers
 
-![icon](https://raw.githubusercontent.com/markwhitaker/MimeTypes.kt/master/artwork/MimeTypes-icon-32.png) **Kotlin developer?** Check out the Kotlin version of this library, [MimeTypes.kt](https://github.com/markwhitaker/MimeTypes.kt).
+![icon](https://raw.githubusercontent.com/markwhitaker/RegexToolbox.Java/main/artwork/RegexToolbox-icon-32.png) [RegexToolbox.Java](https://github.com/markwhitaker/RegexToolbox.Java): Regular expression tools for Java developers
+
+## MimeTypes for other languages
+
+![icon](https://raw.githubusercontent.com/markwhitaker/MimeTypes.kt/master/artwork/MimeTypes-icon-32.png) [MimeTypes for Kotlin](https://github.com/markwhitaker/MimeTypes.kt)
+
+![icon](https://raw.githubusercontent.com/markwhitaker/MimeTypes.NET/master/Artwork/MimeTypes-icon-32.png) [MimeTypes for .NET](https://github.com/markwhitaker/MimeTypes.NET)
