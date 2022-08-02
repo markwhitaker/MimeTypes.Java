@@ -16,3 +16,5 @@ Pull requests welcome!
 ![icon](https://raw.githubusercontent.com/markwhitaker/MimeTypes.kt/master/artwork/MimeTypes-icon-32.png) [MimeTypes for Kotlin](https://github.com/markwhitaker/MimeTypes.kt)
 
 ![icon](https://raw.githubusercontent.com/markwhitaker/MimeTypes.NET/master/Artwork/MimeTypes-icon-32.png) [MimeTypes for .NET](https://github.com/markwhitaker/MimeTypes.NET)
+
+![icon](https://raw.githubusercontent.com/markwhitaker/MimeTypes.JS/master/artwork/MimeTypes-icon-32.png) [MimeTypes for JavaScript](https://github.com/markwhitaker/MimeTypes.JS)
