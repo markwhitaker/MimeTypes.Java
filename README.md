@@ -1,4 +1,4 @@
-﻿![icon](artwork/MimeTypes-icon-100.png)
+![icon](artwork/MimeTypes-icon-100.png)
 
 # MimeTypes.Java [![CircleCI](https://circleci.com/gh/markwhitaker/MimeTypes.Java.svg?style=shield)](https://circleci.com/gh/markwhitaker/MimeTypes.Java) [![](https://jitpack.io/v/markwhitaker/MimeTypes.Java.svg)](https://jitpack.io/#markwhitaker/MimeTypes.Java)
 
@@ -17,4 +17,4 @@ Pull requests welcome!
 
 ![icon](https://raw.githubusercontent.com/markwhitaker/MimeTypes.NET/master/Artwork/MimeTypes-icon-32.png) [MimeTypes for .NET](https://github.com/markwhitaker/MimeTypes.NET)
 
-![icon](https://raw.githubusercontent.com/markwhitaker/MimeTypes.JS/master/artwork/MimeTypes-icon-32.png) [MimeTypes for JavaScript](https://github.com/markwhitaker/MimeTypes.JS)
+![icon](https://raw.githubusercontent.com/markwhitaker/MimeTypes.js/master/artwork/MimeTypes-icon-32.png) [MimeTypes for JavaScript](https://github.com/markwhitaker/MimeTypes.js)
