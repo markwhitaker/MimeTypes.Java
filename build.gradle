@@ -4,7 +4,6 @@ buildscript {
 
 plugins {
     id 'java-library'
-    id 'com.palantir.git-version' version '0.15.0'
     id 'maven-publish'
 }
 
@@ -13,7 +12,7 @@ repositories {
 }
 
 group 'uk.co.mainwave.mimetypes'
-version gitVersion()
+version getVersionFromGit()
 
 sourceCompatibility = JavaVersion.VERSION_1_8
 
@@ -36,5 +35,18 @@ publishing {
         gpr(MavenPublication) {
             from(components.java)
         }
+    }
+}
+
+def getVersionFromGit() {
+    try {
+        def stdout = new ByteArrayOutputStream()
+        exec {
+            commandLine "git", "describe", "--always", "--dirty"
+            standardOutput = stdout
+        }
+        return stdout.toString().trim()
+    } catch (ignored) {
+        return "1.0.0"
     }
 }
