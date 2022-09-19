@@ -42,7 +42,7 @@ def getVersionFromGit() {
     try {
         def stdout = new ByteArrayOutputStream()
         exec {
-            commandLine "git", "describe", "--always", "--dirty"
+            commandLine "git", "describe", "--tags", "--always"
             standardOutput = stdout
         }
         return stdout.toString().trim()
