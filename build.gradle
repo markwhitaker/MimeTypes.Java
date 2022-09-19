@@ -7,15 +7,6 @@ plugins {
     id 'maven-publish'
 }
 
-def getVersionFromGit = { ->
-    def stdout = new ByteArrayOutputStream()
-    exec {
-        commandLine 'git', 'describe', '–tags'
-        standardOutput = stdout
-    }
-    return stdout.toString().trim()
-}
-
 repositories {
     mavenCentral()
 }
@@ -44,5 +35,18 @@ publishing {
         gpr(MavenPublication) {
             from(components.java)
         }
+    }
+}
+
+def getVersionFromGit() {
+    try {
+        def stdout = new ByteArrayOutputStream()
+        exec {
+            commandLine "git", "describe", "--always", "--dirty"
+            standardOutput = stdout
+        }
+        return stdout.toString().trim()
+    } catch (ignored) {
+        return "1.0.0"
     }
 }
