@@ -530,6 +530,11 @@ public class MimeType {
         private static final String PREFIX = "text/";
 
         /**
+         * text/calendar
+         */
+        public static final String CALENDAR = PREFIX + "calendar";
+
+        /**
          * text/css
          */
         public static final String CSS = PREFIX + "css";
