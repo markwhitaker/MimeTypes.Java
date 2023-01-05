@@ -27,6 +27,16 @@ public class MimeType {
         public static final String ECMASCRIPT = PREFIX + "ecmascript";
 
         /**
+         * application/epub+zip
+         */
+        public static final String EPUB_ZIP = PREFIX + "epub+zip";
+
+        /**
+         * application/gzip
+         */
+        public static final String GZIP = PREFIX + "gzip";
+
+        /**
          * application/java-archive
          */
         public static final String JAVA_ARCHIVE = PREFIX + "java-archive";
@@ -42,14 +52,29 @@ public class MimeType {
         public static final String JSON = PREFIX + "json";
 
         /**
+         * application/ld+json
+         */
+        public static final String LD_JSON = PREFIX + "ld+json";
+
+        /**
          * application/mp4
          */
         public static final String MP4 = PREFIX + "mp4";
 
         /**
+         * application/msword
+         */
+        public static final String MSWORD = PREFIX + "msword";
+
+        /**
          * application/octet-stream
          */
         public static final String OCTET_STREAM = PREFIX + "octet-stream";
+
+        /**
+         * application/ogg
+         */
+        public static final String OGG = PREFIX + "ogg";
 
         /**
          * application/pdf
@@ -102,6 +127,109 @@ public class MimeType {
         public static final String SMIL_XML = PREFIX + "smil+xml";
 
         /**
+         * application/vnd.amazon.ebook
+         */
+        public static final String VND_AMAZON_EBOOK = PREFIX + "vnd.amazon.ebook";
+
+        /**
+         * application/vnd.apple.installer+xml
+         */
+        public static final String VND_APPLE_INSTALLER_XML = PREFIX + "vnd.apple.installer+xml";
+
+        /**
+         * application/vnd.mozilla.xul+xml
+         */
+        public static final String VND_MOZILLA_XUL_XML = PREFIX + "vnd.mozilla.xul+xml";
+
+        /**
+         * application/vnd.ms-excel
+         */
+        public static final String VND_MS_EXCEL = PREFIX + "vnd.ms-excel";
+
+        /**
+         * application/vnd.ms-fontobject
+         */
+        public static final String VND_MS_FONTOBJECT = PREFIX + "vnd.ms-fontobject";
+
+        /**
+         * application/vnd.ms-powerpoint
+         */
+        public static final String VND_MS_POWERPOINT = PREFIX + "vnd.ms-powerpoint";
+
+        /**
+         * application/vnd.oasis.opendocument.presentation
+         */
+        public static final String VND_OASIS_OPENDOCUMENT_PRESENTATION = PREFIX + "vnd.oasis.opendocument.presentation";
+
+        /**
+         * application/vnd.oasis.opendocument.spreadsheet
+         */
+        public static final String VND_OASIS_OPENDOCUMENT_SPREADSHEET = PREFIX + "vnd.oasis.opendocument.spreadsheet";
+
+        /**
+         * application/vnd.oasis.opendocument.text
+         */
+        public static final String VND_OASIS_OPENDOCUMENT_TEXT = PREFIX + "vnd.oasis.opendocument.text";
+
+        /**
+         * application/vnd.openxmlformats-officedocument.presentationml.presentation
+         */
+        public static final String VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_PRESENTATION = PREFIX +
+                "vnd.openxmlformats-officedocument.presentationml.presentation";
+
+        /**
+         * application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+         */
+        public static final String VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_SHEET = PREFIX +
+                "vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+
+        /**
+         * application/vnd.openxmlformats-officedocument.wordprocessingml.document
+         */
+        public static final String VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_DOCUMENT = PREFIX +
+                "vnd.openxmlformats-officedocument.wordprocessingml.document";
+
+        /**
+         * application/vnd.rar
+         */
+        public static final String VND_RAR = PREFIX + "vnd.rar";
+
+        /**
+         * application/vnd.visio
+         */
+        public static final String VND_VISIO = PREFIX + "vnd.visio";
+
+        /**
+         * application/x-7z-compressed
+         */
+        public static final String X_7Z_COMPRESSED = PREFIX + "x-7z-compressed";
+
+        /**
+         * application/x-abiword
+         */
+        public static final String X_ABIWORD = PREFIX + "x-abiword";
+
+        /**
+         * application/x-bzip
+         */
+        public static final String X_BZIP = PREFIX + "x-bzip";
+
+        /**
+         * application/x-bzip2
+         */
+        public static final String X_BZIP2 = PREFIX + "x-bzip2";
+
+        /**
+         * application/x-cdf
+         */
+        public static final String X_CDF = PREFIX + "x-cdf";
+
+        /**
+         * application/x-csh
+         */
+        public static final String X_CSH = PREFIX + "x-csh";
+
+        /**
          * application/x-font-otf
          */
         public static final String X_FONT_OTF = PREFIX + "x-font-otf";
@@ -117,9 +245,24 @@ public class MimeType {
         public static final String X_FONT_WOFF = PREFIX + "x-font-woff";
 
         /**
+         * application/x-freearc
+         */
+        public static final String X_FREEARC = PREFIX + "x-freearc";
+
+        /**
+         * application/x-httpd-php
+         */
+        public static final String X_HTTPD_PHP = PREFIX + "x-httpd-php";
+
+        /**
          * application/x-pkcs12
          */
         public static final String X_PKCS_12 = PREFIX + "x-pkcs12";
+
+        /**
+         * application/x-sh
+         */
+        public static final String X_SH = PREFIX + "x-sh";
 
         /**
          * application/x-shockwave-flash
@@ -130,6 +273,11 @@ public class MimeType {
          * application/x-silverlight-app
          */
         public static final String X_SILVERLIGHT_APP = PREFIX + "x-silverlight-app";
+
+        /**
+         * application/x-tar
+         */
+        public static final String X_TAR = PREFIX + "x-tar";
 
         /**
          * application/xhtml+xml
@@ -192,6 +340,21 @@ public class MimeType {
         public static final String OGG = PREFIX + "ogg";
 
         /**
+         * audio/opus
+         */
+        public static final String OPUS = PREFIX + "opus";
+
+        /**
+         * audio/3gpp
+         */
+        public static final String THREEGPP = PREFIX + "3gpp";
+
+        /**
+         * audio/3gpp2
+         */
+        public static final String THREEGPP2 = PREFIX + "3gpp2";
+
+        /**
          * audio/wav
          */
         public static final String WAV = PREFIX + "wav";
@@ -210,6 +373,11 @@ public class MimeType {
          * audio/x-aiff
          */
         public static final String X_AIFF = PREFIX + "x-aiff";
+
+        /**
+         * audio/x-midi
+         */
+        public static final String X_MIDI = PREFIX + "x-midi";
 
         /**
          * audio/x-mpegurl
@@ -277,6 +445,11 @@ public class MimeType {
         private static final String PREFIX = "image/";
 
         /**
+         * image/avif
+         */
+        public static final String AVIF = PREFIX + "avif";
+
+        /**
          * image/bmp
          */
         public static final String BMP = PREFIX + "bmp";
@@ -305,6 +478,11 @@ public class MimeType {
          * image/tiff
          */
         public static final String TIFF = PREFIX + "tiff";
+
+        /**
+         * image/vnd.microsoft.icon
+         */
+        public static final String VND_MICROSOFT_ICON = PREFIX + "vnd.microsoft.icon";
 
         /**
          * image/webp
@@ -350,6 +528,11 @@ public class MimeType {
      */
     public static class Text {
         private static final String PREFIX = "text/";
+
+        /**
+         * text/calendar
+         */
+        public static final String CALENDAR = PREFIX + "calendar";
 
         /**
          * text/css
@@ -407,14 +590,14 @@ public class MimeType {
         private static final String PREFIX = "video/";
 
         /**
-         * video/3gpp
-         */
-        public static final String THREE_GPP = PREFIX + "3gpp";
-
-        /**
          * video/h264
          */
         public static final String H264 = PREFIX + "h264";
+
+        /**
+         * video/mp2t
+         */
+        public static final String MP2T = PREFIX + "mp2t";
 
         /**
          * video/mp4
@@ -437,9 +620,30 @@ public class MimeType {
         public static final String QUICKTIME = PREFIX + "quicktime";
 
         /**
+         * video/3gpp
+         */
+        @Deprecated
+        public static final String THREE_GPP = PREFIX + "3gpp";
+
+        /**
+         * video/3gpp
+         */
+        public static final String THREEGPP = PREFIX + "3gpp";
+
+        /**
+         * video/3gpp
+         */
+        public static final String THREEGPP2 = PREFIX + "3gpp2";
+
+        /**
          * video/webm
          */
         public static final String WEBM = PREFIX + "webm";
+
+        /**
+         * video/x-msvideo
+         */
+        public static final String X_MSVIDEO = PREFIX + "x-msvideo";
 
         private Video() {
         }

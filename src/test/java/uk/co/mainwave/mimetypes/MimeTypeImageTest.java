@@ -6,6 +6,11 @@ import static org.junit.Assert.assertEquals;
 
 public class MimeTypeImageTest {
     @Test
+    public void testImageAvif() {
+        assertEquals("image/avif", MimeType.Image.AVIF);
+    }
+
+    @Test
     public void testImageBmp() {
         assertEquals("image/bmp", MimeType.Image.BMP);
     }
@@ -33,6 +38,11 @@ public class MimeTypeImageTest {
     @Test
     public void testImageTiff() {
         assertEquals("image/tiff", MimeType.Image.TIFF);
+    }
+
+    @Test
+    public void testImageVndMicrosoftIcon() {
+        assertEquals("image/vnd.microsoft.icon", MimeType.Image.VND_MICROSOFT_ICON);
     }
 
     @Test

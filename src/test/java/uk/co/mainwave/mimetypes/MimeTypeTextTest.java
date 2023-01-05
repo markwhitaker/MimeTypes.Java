@@ -6,6 +6,11 @@ import static org.junit.Assert.assertEquals;
 
 public class MimeTypeTextTest {
     @Test
+    public void testTextCalendar() {
+        assertEquals("text/calendar", MimeType.Text.CALENDAR);
+    }
+
+    @Test
     public void testTextCss() {
         assertEquals("text/css", MimeType.Text.CSS);
     }
