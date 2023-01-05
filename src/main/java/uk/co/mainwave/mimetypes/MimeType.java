@@ -590,14 +590,14 @@ public class MimeType {
         private static final String PREFIX = "video/";
 
         /**
-         * video/3gpp
-         */
-        public static final String THREE_GPP = PREFIX + "3gpp";
-
-        /**
          * video/h264
          */
         public static final String H264 = PREFIX + "h264";
+
+        /**
+         * video/mp2t
+         */
+        public static final String MP2T = PREFIX + "mp2t";
 
         /**
          * video/mp4
@@ -620,9 +620,30 @@ public class MimeType {
         public static final String QUICKTIME = PREFIX + "quicktime";
 
         /**
+         * video/3gpp
+         */
+        @Deprecated
+        public static final String THREE_GPP = PREFIX + "3gpp";
+
+        /**
+         * video/3gpp
+         */
+        public static final String THREEGPP = PREFIX + "3gpp";
+
+        /**
+         * video/3gpp
+         */
+        public static final String THREEGPP2 = PREFIX + "3gpp2";
+
+        /**
          * video/webm
          */
         public static final String WEBM = PREFIX + "webm";
+
+        /**
+         * video/x-msvideo
+         */
+        public static final String X_MSVIDEO = PREFIX + "x-msvideo";
 
         private Video() {
         }
