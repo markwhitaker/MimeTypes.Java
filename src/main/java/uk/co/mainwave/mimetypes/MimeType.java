@@ -445,6 +445,11 @@ public class MimeType {
         private static final String PREFIX = "image/";
 
         /**
+         * image/avif
+         */
+        public static final String AVIF = PREFIX + "avif";
+
+        /**
          * image/bmp
          */
         public static final String BMP = PREFIX + "bmp";
@@ -473,6 +478,11 @@ public class MimeType {
          * image/tiff
          */
         public static final String TIFF = PREFIX + "tiff";
+
+        /**
+         * image/vnd.microsoft.icon
+         */
+        public static final String VND_MICROSOFT_ICON = PREFIX + "vnd.microsoft.icon";
 
         /**
          * image/webp
