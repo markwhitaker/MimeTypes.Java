@@ -4,7 +4,6 @@ buildscript {
 
 plugins {
     id 'java-library'
-    id 'maven-publish'
 }
 
 repositories {
@@ -18,24 +17,6 @@ sourceCompatibility = JavaVersion.VERSION_1_8
 
 dependencies {
     testImplementation "junit:junit:$junit_version"
-}
-
-publishing {
-    repositories {
-        maven {
-            name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/markwhitaker/mimetypes.java")
-            credentials {
-                username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
-                password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
-            }
-        }
-    }
-    publications {
-        gpr(MavenPublication) {
-            from(components.java)
-        }
-    }
 }
 
 def getVersionFromGit() {
