@@ -26,6 +26,21 @@ public class MimeTypeAudioTest {
     }
 
     @Test
+    public void testAudioOpus() {
+        assertEquals("audio/opus", MimeType.Audio.OPUS);
+    }
+
+    @Test
+    public void testAudioThreegpp() {
+        assertEquals("audio/3gpp", MimeType.Audio.THREEGPP);
+    }
+
+    @Test
+    public void testAudioThreegpp2() {
+        assertEquals("audio/3gpp2", MimeType.Audio.THREEGPP2);
+    }
+
+    @Test
     public void testAudioWav() {
         assertEquals("audio/wav", MimeType.Audio.WAV);
     }
@@ -43,6 +58,11 @@ public class MimeTypeAudioTest {
     @Test
     public void testAudioXAiff() {
         assertEquals("audio/x-aiff", MimeType.Audio.X_AIFF);
+    }
+
+    @Test
+    public void testAudioXMidi() {
+        assertEquals("audio/x-midi", MimeType.Audio.X_MIDI);
     }
 
     @Test

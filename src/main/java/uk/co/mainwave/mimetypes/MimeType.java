@@ -340,6 +340,21 @@ public class MimeType {
         public static final String OGG = PREFIX + "ogg";
 
         /**
+         * audio/opus
+         */
+        public static final String OPUS = PREFIX + "opus";
+
+        /**
+         * audio/3gpp
+         */
+        public static final String THREEGPP = PREFIX + "3gpp";
+
+        /**
+         * audio/3gpp2
+         */
+        public static final String THREEGPP2 = PREFIX + "3gpp2";
+
+        /**
          * audio/wav
          */
         public static final String WAV = PREFIX + "wav";
@@ -358,6 +373,11 @@ public class MimeType {
          * audio/x-aiff
          */
         public static final String X_AIFF = PREFIX + "x-aiff";
+
+        /**
+         * audio/x-midi
+         */
+        public static final String X_MIDI = PREFIX + "x-midi";
 
         /**
          * audio/x-mpegurl
