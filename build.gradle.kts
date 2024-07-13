@@ -1,6 +1,3 @@
-import java.io.BufferedReader
-import java.io.InputStreamReader
-
 plugins {
     `java-library`
 }
@@ -12,7 +9,7 @@ repositories {
 }
 
 group = "uk.co.mainwave.mimetypes"
-version = getVersionFromGit()
+version = getGitVersion()
 
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
@@ -20,15 +17,12 @@ dependencies {
     testImplementation("junit:junit:$junitVersion")
 }
 
-fun getVersionFromGit(): String {
-    val processBuilder = ProcessBuilder(listOf("git", "describe", "--tags", "--always"))
+fun getGitVersion(): String {
     try {
-        val process = processBuilder.start()
-        val reader = BufferedReader(InputStreamReader(process.inputStream))
-        val output = StringBuilder()
-        output.append(reader.readLine())
+        val process = ProcessBuilder("git", "describe", "--tags", "--always").start()
+        val output = process.inputStream.bufferedReader().readLine()
         process.waitFor()
-        return output.toString()
+        return output
     } catch (e: Exception) {
         return "1.0.0"
     }
