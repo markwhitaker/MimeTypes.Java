@@ -17,13 +17,11 @@ dependencies {
     testImplementation("junit:junit:$junitVersion")
 }
 
-fun getGitVersion(): String {
-    try {
-        val process = ProcessBuilder("git", "describe", "--tags", "--always").start()
-        val output = process.inputStream.bufferedReader().readLine()
-        process.waitFor()
-        return output
-    } catch (e: Exception) {
-        return "1.0.0"
-    }
+fun getGitVersion() = try {
+    val process = ProcessBuilder("git", "describe", "--tags", "--always").start()
+    val output = process.inputStream.bufferedReader().readLine()
+    process.waitFor()
+    output
+} catch (_: Exception) {
+    "1.0.0"
 }
