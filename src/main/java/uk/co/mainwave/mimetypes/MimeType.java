@@ -1,648 +1,404 @@
 package uk.co.mainwave.mimetypes;
 
-/**
- * MIME type constants
- */
+/** MIME type constants */
 public class MimeType {
 
-    /**
-     * MIME type constants for application types
-     */
+    /** MIME type constants for application types */
     public static class Application {
         private static final String PREFIX = "application/";
 
-        /**
-         * application/atom+xml
-         */
+        /** <code>application/atom+xml</code> */
         public static final String ATOM_XML = PREFIX + "atom+xml";
 
-        /**
-         * application/atomcat+xml
-         */
+        /** <code>application/atomcat+xml</code> */
         public static final String ATOMCAT_XML = PREFIX + "atomcat+xml";
 
-        /**
-         * application/ecmascript
-         */
+        /** <code>application/ecmascript</code> */
         public static final String ECMASCRIPT = PREFIX + "ecmascript";
 
-        /**
-         * application/epub+zip
-         */
+        /** <code>application/epub+zip</code> */
         public static final String EPUB_ZIP = PREFIX + "epub+zip";
 
-        /**
-         * application/gzip
-         */
+        /** <code>application/gzip</code> */
         public static final String GZIP = PREFIX + "gzip";
 
-        /**
-         * application/java-archive
-         */
+        /** <code>application/java-archive</code> */
         public static final String JAVA_ARCHIVE = PREFIX + "java-archive";
 
-        /**
-         * application/javascript
-         */
+        /** <code>application/javascript</code> */
         public static final String JAVASCRIPT = PREFIX + "javascript";
 
-        /**
-         * application/json
-         */
+        /** <code>application/json</code> */
         public static final String JSON = PREFIX + "json";
 
-        /**
-         * application/ld+json
-         */
+        /** <code>application/ld+json</code> */
         public static final String LD_JSON = PREFIX + "ld+json";
 
-        /**
-         * application/mp4
-         */
+        /** <code>application/mp4</code> */
         public static final String MP4 = PREFIX + "mp4";
 
-        /**
-         * application/msword
-         */
+        /** <code>application/msword</code> */
         public static final String MSWORD = PREFIX + "msword";
 
-        /**
-         * application/octet-stream
-         */
+        /** <code>application/octet-stream</code> */
         public static final String OCTET_STREAM = PREFIX + "octet-stream";
 
-        /**
-         * application/ogg
-         */
+        /** <code>application/ogg</code> */
         public static final String OGG = PREFIX + "ogg";
 
-        /**
-         * application/pdf
-         */
+        /** <code>application/pdf</code> */
         public static final String PDF = PREFIX + "pdf";
 
-        /**
-         * application/pkcs10
-         */
+        /** <code>application/pkcs10</code> */
         public static final String PKCS_10 = PREFIX + "pkcs10";
 
-        /**
-         * application/pkcs7-mime
-         */
+        /** <code>application/pkcs7-mime</code> */
         public static final String PKCS_7_MIME = PREFIX + "pkcs7-mime";
 
-        /**
-         * application/pkcs7-signature
-         */
+        /** <code>application/pkcs7-signature</code> */
         public static final String PKCS_7_SIGNATURE = PREFIX + "pkcs7-signature";
 
-        /**
-         * application/pkcs8
-         */
+        /** <code>application/pkcs8</code> */
         public static final String PKCS_8 = PREFIX + "pkcs8";
 
-        /**
-         * application/postscript
-         */
+        /** <code>application/postscript</code> */
         public static final String POSTSCRIPT = PREFIX + "postscript";
 
-        /**
-         * application/rdf+xml
-         */
+        /** <code>application/rdf+xml</code> */
         public static final String RDF_XML = PREFIX + "rdf+xml";
 
-        /**
-         * application/rss+xml
-         */
+        /** <code>application/rss+xml</code> */
         public static final String RSS_XML = PREFIX + "rss+xml";
 
-        /**
-         * application/rtf
-         */
+        /** <code>application/rtf</code> */
         public static final String RTF = PREFIX + "rtf";
 
-        /**
-         * application/smil+xml
-         */
+        /** <code>application/smil+xml</code> */
         public static final String SMIL_XML = PREFIX + "smil+xml";
 
-        /**
-         * application/vnd.amazon.ebook
-         */
+        /** <code>application/vnd.amazon.ebook</code> */
         public static final String VND_AMAZON_EBOOK = PREFIX + "vnd.amazon.ebook";
 
-        /**
-         * application/vnd.apple.installer+xml
-         */
+        /** <code>application/vnd.apple.installer+xml</code> */
         public static final String VND_APPLE_INSTALLER_XML = PREFIX + "vnd.apple.installer+xml";
 
-        /**
-         * application/vnd.mozilla.xul+xml
-         */
+        /** <code>application/vnd.mozilla.xul+xml</code> */
         public static final String VND_MOZILLA_XUL_XML = PREFIX + "vnd.mozilla.xul+xml";
 
-        /**
-         * application/vnd.ms-excel
-         */
+        /** <code>application/vnd.ms-excel</code> */
         public static final String VND_MS_EXCEL = PREFIX + "vnd.ms-excel";
 
-        /**
-         * application/vnd.ms-fontobject
-         */
+        /** <code>application/vnd.ms-fontobject</code> */
         public static final String VND_MS_FONTOBJECT = PREFIX + "vnd.ms-fontobject";
 
-        /**
-         * application/vnd.ms-powerpoint
-         */
+        /** <code>application/vnd.ms-powerpoint</code> */
         public static final String VND_MS_POWERPOINT = PREFIX + "vnd.ms-powerpoint";
 
-        /**
-         * application/vnd.oasis.opendocument.presentation
-         */
+        /** <code>application/vnd.oasis.opendocument.presentation</code> */
         public static final String VND_OASIS_OPENDOCUMENT_PRESENTATION = PREFIX + "vnd.oasis.opendocument.presentation";
 
-        /**
-         * application/vnd.oasis.opendocument.spreadsheet
-         */
+        /** <code>application/vnd.oasis.opendocument.spreadsheet</code> */
         public static final String VND_OASIS_OPENDOCUMENT_SPREADSHEET = PREFIX + "vnd.oasis.opendocument.spreadsheet";
 
-        /**
-         * application/vnd.oasis.opendocument.text
-         */
+        /** <code>application/vnd.oasis.opendocument.text</code> */
         public static final String VND_OASIS_OPENDOCUMENT_TEXT = PREFIX + "vnd.oasis.opendocument.text";
 
-        /**
-         * application/vnd.openxmlformats-officedocument.presentationml.presentation
-         */
+        /** <code>application/vnd.openxmlformats-officedocument.presentationml.presentation</code> */
         public static final String VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_PRESENTATION = PREFIX +
                 "vnd.openxmlformats-officedocument.presentationml.presentation";
 
-        /**
-         * application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-         */
+        /** <code>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</code> */
         public static final String VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_SHEET = PREFIX +
                 "vnd.openxmlformats-officedocument.spreadsheetml.sheet";
 
-        /**
-         * application/vnd.openxmlformats-officedocument.wordprocessingml.document
-         */
+        /** <code>application/vnd.openxmlformats-officedocument.wordprocessingml.document</code> */
         public static final String VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_DOCUMENT = PREFIX +
                 "vnd.openxmlformats-officedocument.wordprocessingml.document";
 
-        /**
-         * application/vnd.rar
-         */
+        /** <code>application/vnd.rar</code> */
         public static final String VND_RAR = PREFIX + "vnd.rar";
 
-        /**
-         * application/vnd.visio
-         */
+        /** <code>application/vnd.visio</code> */
         public static final String VND_VISIO = PREFIX + "vnd.visio";
 
-        /**
-         * application/x-7z-compressed
-         */
+        /** <code>application/x-7z-compressed</code> */
         public static final String X_7Z_COMPRESSED = PREFIX + "x-7z-compressed";
 
-        /**
-         * application/x-abiword
-         */
+        /** <code>application/x-abiword</code> */
         public static final String X_ABIWORD = PREFIX + "x-abiword";
 
-        /**
-         * application/x-bzip
-         */
+        /** <code>application/x-bzip</code> */
         public static final String X_BZIP = PREFIX + "x-bzip";
 
-        /**
-         * application/x-bzip2
-         */
+        /** <code>application/x-bzip2</code> */
         public static final String X_BZIP2 = PREFIX + "x-bzip2";
 
-        /**
-         * application/x-cdf
-         */
+        /** <code>application/x-cdf</code> */
         public static final String X_CDF = PREFIX + "x-cdf";
 
-        /**
-         * application/x-csh
-         */
+        /** <code>application/x-csh</code> */
         public static final String X_CSH = PREFIX + "x-csh";
 
-        /**
-         * application/x-font-otf
-         */
+        /** <code>application/x-font-otf</code> */
         public static final String X_FONT_OTF = PREFIX + "x-font-otf";
 
-        /**
-         * application/x-font-ttf
-         */
+        /** <code>application/x-font-ttf</code> */
         public static final String X_FONT_TTF = PREFIX + "x-font-ttf";
 
-        /**
-         * application/x-font-woff
-         */
+        /** <code>application/x-font-woff</code> */
         public static final String X_FONT_WOFF = PREFIX + "x-font-woff";
 
-        /**
-         * application/x-freearc
-         */
+        /** <code>application/x-freearc</code> */
         public static final String X_FREEARC = PREFIX + "x-freearc";
 
-        /**
-         * application/x-httpd-php
-         */
+        /** <code>application/x-httpd-php</code> */
         public static final String X_HTTPD_PHP = PREFIX + "x-httpd-php";
 
-        /**
-         * application/x-pkcs12
-         */
+        /** <code>application/x-pkcs12</code> */
         public static final String X_PKCS_12 = PREFIX + "x-pkcs12";
 
-        /**
-         * application/x-sh
-         */
+        /** <code>application/x-sh</code> */
         public static final String X_SH = PREFIX + "x-sh";
 
-        /**
-         * application/x-shockwave-flash
-         */
+        /** <code>application/x-shockwave-flash</code> */
         public static final String X_SHOCKWAVE_FLASH = PREFIX + "x-shockwave-flash";
 
-        /**
-         * application/x-silverlight-app
-         */
+        /** <code>application/x-silverlight-app</code> */
         public static final String X_SILVERLIGHT_APP = PREFIX + "x-silverlight-app";
 
-        /**
-         * application/x-tar
-         */
+        /** <code>application/x-tar</code> */
         public static final String X_TAR = PREFIX + "x-tar";
 
-        /**
-         * application/xhtml+xml
-         */
+        /** <code>application/xhtml+xml</code> */
         public static final String XHTML_XML = PREFIX + "xhtml+xml";
 
-        /**
-         * application/xml
-         */
+        /** <code>application/xml</code> */
         public static final String XML = PREFIX + "xml";
 
-        /**
-         * application/xml-dtd
-         */
+        /** <code>application/xml-dtd</code> */
         public static final String XML_DTD = PREFIX + "xml-dtd";
 
-        /**
-         * application/xslt+xml
-         */
+        /** <code>application/xslt+xml</code> */
         public static final String XSLT_XML = PREFIX + "xslt+xml";
 
-        /**
-         * application/x-www-form-urlencoded
-         */
+        /** <code>application/x-www-form-urlencoded</code> */
         public static final String X_WWW_FORM_URLENCODED = PREFIX + "x-www-form-urlencoded";
 
-        /**
-         * application/zip
-         */
+        /** <code>application/zip</code> */
         public static final String ZIP = PREFIX + "zip";
 
         private Application() {
         }
     }
 
-    /**
-     * MIME type constants for audio types
-     */
+    /** MIME type constants for audio types */
     public static class Audio {
         private static final String PREFIX = "audio/";
 
-        /**
-         * audio/midi
-         */
+        /** <code>audio/midi</code> */
         public static final String MIDI = PREFIX + "midi";
 
-        /**
-         * audio/mp4
-         */
+        /** <code>audio/mp4</code> */
         public static final String MP4 = PREFIX + "mp4";
 
-        /**
-         * audio/mpeg
-         */
+        /** <code>audio/mpeg</code> */
         public static final String MPEG = PREFIX + "mpeg";
 
-        /**
-         * audio/ogg
-         */
+        /** <code>audio/ogg</code> */
         public static final String OGG = PREFIX + "ogg";
 
-        /**
-         * audio/opus
-         */
+        /** <code>audio/opus</code> */
         public static final String OPUS = PREFIX + "opus";
 
-        /**
-         * audio/3gpp
-         */
+        /** <code>audio/3gpp</code> */
         public static final String THREEGPP = PREFIX + "3gpp";
 
-        /**
-         * audio/3gpp2
-         */
+        /** <code>audio/3gpp2</code> */
         public static final String THREEGPP2 = PREFIX + "3gpp2";
 
-        /**
-         * audio/wav
-         */
+        /** <code>audio/wav</code> */
         public static final String WAV = PREFIX + "wav";
 
-        /**
-         * audio/webm
-         */
+        /** <code>audio/webm</code> */
         public static final String WEBM = PREFIX + "webm";
 
-        /**
-         * audio/x-aac
-         */
+        /** <code>audio/x-aac</code> */
         public static final String X_AAC = PREFIX + "x-aac";
 
-        /**
-         * audio/x-aiff
-         */
+        /** <code>audio/x-aiff</code> */
         public static final String X_AIFF = PREFIX + "x-aiff";
 
-        /**
-         * audio/x-midi
-         */
+        /** <code>audio/x-midi</code> */
         public static final String X_MIDI = PREFIX + "x-midi";
 
-        /**
-         * audio/x-mpegurl
-         */
+        /** <code>audio/x-mpegurl</code> */
         public static final String X_MPEGURL = PREFIX + "x-mpegurl";
 
-        /**
-         * audio/x-ms-wma
-         */
+        /** <code>audio/x-ms-wma</code> */
         public static final String X_MS_WMA = PREFIX + "x-ms-wma";
 
-        /**
-         * audio/x-wav
-         */
+        /** <code>audio/x-wav</code> */
         public static final String X_WAV = PREFIX + "x-wav";
 
         private Audio() {
         }
     }
 
-    /**
-     * MIME type constants for font types
-     */
+    /** MIME type constants for font types */
     public static class Font {
         private static final String PREFIX = "font/";
 
-        /**
-         * font/collection
-         */
+        /** <code>font/collection</code> */
         public static final String COLLECTION = PREFIX + "collection";
 
-        /**
-         * font/otf
-         */
+        /** <code>font/otf</code> */
         public static final String OTF = PREFIX + "otf";
 
-        /**
-         * font/sfnt
-         */
+        /** <code>font/sfnt</code> */
         public static final String SFNT = PREFIX + "sfnt";
 
-        /**
-         * font/ttf
-         */
+        /** <code>font/ttf</code> */
         public static final String TTF = PREFIX + "ttf";
 
-        /**
-         * font/woff
-         */
+        /** <code>font/woff</code> */
         public static final String WOFF = PREFIX + "woff";
 
-        /**
-         * font/woff2
-         */
+        /** <code>font/woff2</code> */
         public static final String WOFF_2 = PREFIX + "woff2";
 
         private Font() {
         }
     }
 
-    /**
-     * MIME type constants for image types
-     */
+    /** MIME type constants for image types */
     public static class Image {
         private static final String PREFIX = "image/";
 
-        /**
-         * image/avif
-         */
+        /** <code>image/avif</code> */
         public static final String AVIF = PREFIX + "avif";
 
-        /**
-         * image/bmp
-         */
+        /** <code>image/bmp</code> */
         public static final String BMP = PREFIX + "bmp";
 
-        /**
-         * image/gif
-         */
+        /** <code>image/gif</code> */
         public static final String GIF = PREFIX + "gif";
 
-        /**
-         * image/jpeg
-         */
+        /** <code>image/jpeg</code> */
         public static final String JPEG = PREFIX + "jpeg";
 
-        /**
-         * image/png
-         */
+        /** <code>image/png</code> */
         public static final String PNG = PREFIX + "png";
 
-        /**
-         * image/svg+xml
-         */
+        /** <code>image/svg+xml</code> */
         public static final String SVG_XML = PREFIX + "svg+xml";
 
-        /**
-         * image/tiff
-         */
+        /** <code>image/tiff</code> */
         public static final String TIFF = PREFIX + "tiff";
 
-        /**
-         * image/vnd.microsoft.icon
-         */
+        /** <code>image/vnd.microsoft.icon</code> */
         public static final String VND_MICROSOFT_ICON = PREFIX + "vnd.microsoft.icon";
 
-        /**
-         * image/webp
-         */
+        /** <code>image/webp</code> */
         public static final String WEBP = PREFIX + "webp";
 
         private Image() {
         }
     }
 
-    /**
-     * MIME type constants for multipart types
-     */
+    /** MIME type constants for multipart types */
     public static class Multipart {
         private static final String PREFIX = "multipart/";
 
-        /**
-         * multipart/byteranges
-         */
+        /** <code>multipart/byteranges</code> */
         public static final String BYTERANGES = PREFIX + "byteranges";
 
-        /**
-         * multipart/encrypted
-         */
+        /** <code>multipart/encrypted</code> */
         public static final String ENCRYPTED = PREFIX + "encrypted";
 
-        /**
-         * multipart/form-data
-         */
+        /** <code>multipart/form-data</code> */
         public static final String FORM_DATA = PREFIX + "form-data";
 
-        /**
-         * multipart/related
-         */
+        /** <code>multipart/related</code> */
         public static final String RELATED = PREFIX + "related";
 
         private Multipart() {
         }
     }
 
-    /**
-     * MIME type constants for text types
-     */
+    /** MIME type constants for text types */
     public static class Text {
         private static final String PREFIX = "text/";
 
-        /**
-         * text/calendar
-         */
+        /** <code>text/calendar</code> */
         public static final String CALENDAR = PREFIX + "calendar";
 
-        /**
-         * text/css
-         */
+        /** <code>text/css</code> */
         public static final String CSS = PREFIX + "css";
 
-        /**
-         * text/csv
-         */
+        /** <code>text/csv</code> */
         public static final String CSV = PREFIX + "csv";
 
-        /**
-         * text/html
-         */
+        /** <code>text/html</code> */
         public static final String HTML = PREFIX + "html";
 
-        /**
-         * text/javascript
-         */
+        /** <code>text/javascript</code> */
         public static final String JAVASCRIPT = PREFIX + "javascript";
 
-        /**
-         * text/plain
-         */
+        /** <code>text/plain</code> */
         public static final String PLAIN = PREFIX + "plain";
 
-        /**
-         * text/richtext
-         */
+        /** <code>text/richtext</code> */
         public static final String RICHTEXT = PREFIX + "richtext";
 
-        /**
-         * text/sgml
-         */
+        /** <code>text/sgml</code> */
         public static final String SGML = PREFIX + "sgml";
 
-        /**
-         * text/xml
-         */
+        /** <code>text/xml</code> */
         public static final String XML = PREFIX + "xml";
 
-        /**
-         * text/yaml
-         */
+        /** <code>text/yaml</code> */
         public static final String YAML = PREFIX + "yaml";
 
         private Text() {
         }
     }
 
-    /**
-     * MIME type constants for video types
-     */
+    /** MIME type constants for video types */
     public static class Video {
         private static final String PREFIX = "video/";
 
-        /**
-         * video/h264
-         */
+        /** <code>video/h264</code> */
         public static final String H264 = PREFIX + "h264";
 
-        /**
-         * video/mp2t
-         */
+        /** <code>video/mp2t</code> */
         public static final String MP2T = PREFIX + "mp2t";
 
-        /**
-         * video/mp4
-         */
+        /** <code>video/mp4</code> */
         public static final String MP4 = PREFIX + "mp4";
 
-        /**
-         * video/mpeg
-         */
+        /** <code>video/mpeg</code> */
         public static final String MPEG = PREFIX + "mpeg";
 
-        /**
-         * video/ogg
-         */
+        /** <code>video/ogg</code> */
         public static final String OGG = PREFIX + "ogg";
 
-        /**
-         * video/quicktime
-         */
+        /** <code>video/quicktime</code> */
         public static final String QUICKTIME = PREFIX + "quicktime";
 
-        /**
-         * video/3gpp
-         */
+        /** <code>video/3gpp</code> */
         @Deprecated
         public static final String THREE_GPP = PREFIX + "3gpp";
 
-        /**
-         * video/3gpp
-         */
+        /** <code>video/3gpp</code> */
         public static final String THREEGPP = PREFIX + "3gpp";
 
-        /**
-         * video/3gpp
-         */
+        /** <code>video/3gpp</code> */
         public static final String THREEGPP2 = PREFIX + "3gpp2";
 
-        /**
-         * video/webm
-         */
+        /** <code>video/webm</code> */
         public static final String WEBM = PREFIX + "webm";
 
-        /**
-         * video/x-msvideo
-         */
+        /** <code>video/x-msvideo</code> */
         public static final String X_MSVIDEO = PREFIX + "x-msvideo";
 
         private Video() {
