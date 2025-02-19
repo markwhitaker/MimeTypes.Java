@@ -17,7 +17,7 @@ dependencies {
     testImplementation("junit:junit:$junitVersion")
 }
 
-fun getGitVersion() = try {
+fun getGitVersion(): String = try {
     val process = ProcessBuilder("git", "describe", "--tags", "--always").start()
     val output = process.inputStream.bufferedReader().readLine()
     process.waitFor()
