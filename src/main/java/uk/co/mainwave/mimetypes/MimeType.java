@@ -34,6 +34,9 @@ public class MimeType {
         /** <code>application/ld+json</code> */
         public static final String LD_JSON = PREFIX + "ld+json";
 
+        /** <code>application/manifest+json</code> */
+        public static final String MANIFEST_JSON = PREFIX + "manifest+json";
+
         /** <code>application/mp4</code> */
         public static final String MP4 = PREFIX + "mp4";
 
@@ -343,6 +346,9 @@ public class MimeType {
 
         /** <code>text/javascript</code> */
         public static final String JAVASCRIPT = PREFIX + "javascript";
+
+        /** <code>text/markdown</code> */
+        public static final String MARKDOWN = PREFIX + "markdown";
 
         /** <code>text/plain</code> */
         public static final String PLAIN = PREFIX + "plain";

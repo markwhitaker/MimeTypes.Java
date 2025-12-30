@@ -31,6 +31,11 @@ public class MimeTypeTextTest {
     }
 
     @Test
+    public void testTextMarkdown() {
+        assertEquals("text/markdown", MimeType.Text.MARKDOWN);
+    }
+
+    @Test
     public void testTextPlain() {
         assertEquals("text/plain", MimeType.Text.PLAIN);
     }

@@ -51,6 +51,11 @@ public class MimeTypeApplicationTest {
     }
 
     @Test
+    public void testApplicationManifestJson() {
+        assertEquals("application/manifest+json", MimeType.Application.MANIFEST_JSON);
+    }
+
+    @Test
     public void testApplicationMp4() {
         assertEquals("application/mp4", MimeType.Application.MP4);
     }
