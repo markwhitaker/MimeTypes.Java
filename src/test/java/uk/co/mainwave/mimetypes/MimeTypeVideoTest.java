@@ -36,11 +36,6 @@ public class MimeTypeVideoTest {
     }
 
     @Test
-    public void testVideoThreegppDeprecatedVersion() {
-        assertEquals("video/3gpp", MimeType.Video.THREE_GPP);
-    }
-
-    @Test
     public void testVideoThreegpp() {
         assertEquals("video/3gpp", MimeType.Video.THREEGPP);
     }

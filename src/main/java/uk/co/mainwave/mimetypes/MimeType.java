@@ -392,10 +392,6 @@ public class MimeType {
         public static final String QUICKTIME = PREFIX + "quicktime";
 
         /** <code>video/3gpp</code> */
-        @Deprecated
-        public static final String THREE_GPP = PREFIX + "3gpp";
-
-        /** <code>video/3gpp</code> */
         public static final String THREEGPP = PREFIX + "3gpp";
 
         /** <code>video/3gpp</code> */
