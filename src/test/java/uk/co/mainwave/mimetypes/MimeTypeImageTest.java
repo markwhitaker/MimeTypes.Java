@@ -21,8 +21,23 @@ public class MimeTypeImageTest {
     }
 
     @Test
+    public void testImageJp2() {
+        assertEquals("image/jp2", MimeType.Image.JP2);
+    }
+
+    @Test
     public void testImageJpeg() {
         assertEquals("image/jpeg", MimeType.Image.JPEG);
+    }
+
+    @Test
+    public void testImageJpm() {
+        assertEquals("image/jpm", MimeType.Image.JPM);
+    }
+
+    @Test
+    public void testImageJpx() {
+        assertEquals("image/jpx", MimeType.Image.JPX);
     }
 
     @Test

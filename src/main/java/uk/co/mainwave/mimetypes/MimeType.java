@@ -286,8 +286,17 @@ public class MimeType {
         /** <code>image/gif</code> */
         public static final String GIF = PREFIX + "gif";
 
+        /** <code>image/jp2</code> */
+        public static final String JP2 = PREFIX + "jp2";
+
         /** <code>image/jpeg</code> */
         public static final String JPEG = PREFIX + "jpeg";
+
+        /** <code>image/jpm</code> */
+        public static final String JPM = PREFIX + "jpm";
+
+        /** <code>image/jpx</code> */
+        public static final String JPX = PREFIX + "jpx";
 
         /** <code>image/png</code> */
         public static final String PNG = PREFIX + "png";
@@ -375,6 +384,9 @@ public class MimeType {
 
         /** <code>video/h264</code> */
         public static final String H264 = PREFIX + "h264";
+
+        /** <code>video/mj2</code> */
+        public static final String MJ2 = PREFIX + "mj2";
 
         /** <code>video/mp2t</code> */
         public static final String MP2T = PREFIX + "mp2t";

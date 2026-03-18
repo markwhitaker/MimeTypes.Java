@@ -11,6 +11,11 @@ public class MimeTypeVideoTest {
     }
 
     @Test
+    public void testVideoMj2() {
+        assertEquals("video/mj2", MimeType.Video.MJ2);
+    }
+
+    @Test
     public void testVideoMp2t() {
         assertEquals("video/mp2t", MimeType.Video.MP2T);
     }
