@@ -1,5 +1,6 @@
 plugins {
     `java-library`
+    `maven-publish`
 }
 
 val junitVersion = "4.13.2"
@@ -15,6 +16,14 @@ java.sourceCompatibility = JavaVersion.VERSION_1_8
 
 dependencies {
     testImplementation("junit:junit:$junitVersion")
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            from(components["java"])
+        }
+    }
 }
 
 fun getGitVersion(): String = try {
