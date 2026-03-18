@@ -1,5 +1,14 @@
 plugins {
     `java-library`
+    `maven-publish`
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            from(components["java"])
+        }
+    }
 }
 
 val junitVersion = "4.13.2"
